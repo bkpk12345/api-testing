@@ -1,0 +1,29 @@
+{
+	"name": "api-testing",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "jest --watchAll --verbose --runInBand"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"body-parser": "^1.18.3",
+		"cors": "^2.8.5",
+		"express": "^4.16.4",
+		"jsonwebtoken": "^8.4.0",
+		"lodash": "^4.17.11",
+		"moment": "^2.24.0",
+		"mongoose": "^5.4.8",
+		"validator": "^10.11.0"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"jest": "^24.1.0",
+		"superagent": "^4.1.0",
+		"supertest": "^3.4.2"
+	}
+}
